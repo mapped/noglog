@@ -3,7 +3,7 @@ package glog_test
 import (
 	"fmt"
 
-	glog "github.com/slok/noglog"
+	glog "github.com/golang/glog"
 )
 
 // LoggerFunc shows how you would set a custom logger. In this case the LoggerFunc helper has been used,

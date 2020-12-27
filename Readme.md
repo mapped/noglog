@@ -29,7 +29,7 @@ For a complete example, check [this][example]
 
 ### Import library
 
-First we need to add noglog as dependency, but it will need to be placed on `github.com/golang/glog` import path, so `github.com/slok/noglog` code replaces `github.com/golang/glog`
+First we need to add noglog as dependency, but it will need to be placed on `github.com/golang/glog` import path, so `github.com/mapped/noglog` code replaces `github.com/golang/glog`
 
 #### Using go modules
 
@@ -39,7 +39,7 @@ require (
 )
 
 replace (
-    github.com/google/glog => github.com/slok/noglog master
+    github.com/google/glog => github.com/mapped/noglog master
 )
 ```
 
@@ -48,7 +48,7 @@ replace (
 ```toml
 [[override]]
   name = "github.com/golang/glog"
-  source = "github.com/slok/noglog"
+  source = "github.com/mapped/noglog"
   branch = "master"
 ```
 

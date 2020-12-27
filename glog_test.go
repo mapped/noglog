@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	glog "github.com/slok/noglog"
+	glog "github.com/golang/glog"
 )
 
 type mockLogger struct {
